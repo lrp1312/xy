@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			var userAgent = navigator.userAgent;
+			
+			if(userAgent.toLowerCase().indexOf('android') != -1 
+			|| userAgent.toLowerCase().indexOf('iphone') != -1 
+			|| userAgent.toLowerCase().indexOf('ipad') != -1){
+			location.href = 'mobile/index.html';	
+			}else{
+				location.href = 'PC/index.html'
+			}
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
